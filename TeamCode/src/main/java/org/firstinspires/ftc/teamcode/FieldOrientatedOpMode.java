@@ -9,6 +9,7 @@ import org.firstinspires.ftc.teamcode.Classes.RobotDrive;
 public class FieldOrientatedOpMode extends OpMode {
     IndexerServos flipper = new IndexerServos();
     RobotDrive drive = new RobotDrive();
+
     double forward, strafe, rotate ;
 
     @Override
